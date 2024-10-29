@@ -94,6 +94,9 @@
 .cart .currently-items .cart-item .delete-btn:hover {
   border-color: var(--Rose-900);
 }
+.cart .currently-items .cart-item .delete-btn:hover svg path {
+  fill: #260f08;
+}
 .cart .currently-items .cart-item .delete-btn svg{
   width: 15px;
   height: 15px;

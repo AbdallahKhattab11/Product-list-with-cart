@@ -130,7 +130,7 @@ export function handleStartNewOrderBtn() {
   }
   // update number of items in cart
   handleNumberOfElementsInCart()
-  
+
   // hide the items div
   show_hidden(emptyDiv,itemsDiv)
 
@@ -150,6 +150,10 @@ export function handleStartNewOrderBtn() {
     // remove border 
     let img = item.querySelector(".top .img-container img.border");
     img.classList.remove("border");
+
+    // reset number
+    let number = item.querySelector(".top .add-to-cart .number-of-items .number");
+    number.textContent = 1;
 
     let addToCart = item.querySelector(".top .add-to-cart .add-btn");
     let numberOfItemsDiv = item.querySelector(".top .add-to-cart .number-of-items");

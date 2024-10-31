@@ -22,6 +22,7 @@
 }
 .cart .empty-div img {
   width: 150px;
+  height: 150px;
 }
 .cart .empty-div p {
   color: var(--Rose-500);
@@ -159,5 +160,11 @@
 @media screen and (max-width: 500px) {
   .cart .container {
     padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cart {
+    width: 100%;
   }
 }
